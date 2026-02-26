@@ -5,8 +5,9 @@ Retrieves temperature, humidity, and pressure from a BME280 sensor module.
 Displays temperature and humidity at the top of the ESP’s screen, and the time at the bottom.
 Sends temperature, humidity, and pressure data over Wi-Fi via MQTT to interface with Home Assistant.
 
-BME280 : https://fr.aliexpress.com/item/32912100752.html
-ESP8266 : https://fr.aliexpress.com/item/1005006272676085.html (3.3v version)
+BME280 : https://fr.aliexpress.com/item/32912100752.html (3.3v version)
+
+ESP8266 : https://fr.aliexpress.com/item/1005006272676085.html 
 
 Wiring / câblage :
 
