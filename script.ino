@@ -172,7 +172,10 @@ char bufferHeure[10];
 sprintf(bufferHeure, "%02d:%02d:%02d", heureLocale, timeinfo->tm_min, timeinfo->tm_sec);
 
 char bufferDate[20];
+//FRENCH FORMAT
 strftime(bufferDate, sizeof(bufferDate), "%d/%m/%Y", timeinfo);
+//US FORMAT
+//strftime(bufferDate, sizeof(bufferDate), "%m/%d/%Y", timeinfo);
 
 // Affichage OLED
 display.setTextSize(2);
